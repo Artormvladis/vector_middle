@@ -9,7 +9,7 @@ vector <char> itc_strtlist(string str){
 string itc_join(vector <char> lst, string sep){
     string str="";
     if (lst.size()>0){
-        for(int i=0; i<lst.size(); i++){
+        for(int i=0; i<lst.size()-1; i++){
             str+=lst[i];
             str+=sep;
         }
@@ -37,8 +37,8 @@ string itc_rmstrchar(string str, string less){
         }
         if (a==0){
 	  str1+=str[i];
-          a=0;
-        }
+	}
+        a=0;
     }
     return str1;
 }
