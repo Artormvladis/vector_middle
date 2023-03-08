@@ -35,7 +35,8 @@ string itc_rmstrchar(string str, string less){
             a=1;
           }
         }
-        if (a==0) str1+=str[i];{
+        if (a==0){
+	  str1+=str[i];
           a=0;
         }
     }
