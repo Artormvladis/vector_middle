@@ -49,5 +49,5 @@ long itc_sumlst(const vector <int> &lst){
         a+=lst[i];
        }
     }
-    return sum;
+    return a;
 }
