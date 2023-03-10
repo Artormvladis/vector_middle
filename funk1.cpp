@@ -30,7 +30,7 @@ string itc_rmstrchar(string str, string less){
     string str1="";
     int a=0;
     for (int i=0; str[i]!='\0'; i++) {
-        for(int i1=0; less[i1]!='\n'; i1++){
+        for(int i1=0; less[i1]!='\0'; i1++){
           if (less[i1]==str[i]){
             a=1;
           }
