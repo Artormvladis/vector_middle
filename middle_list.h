@@ -11,6 +11,7 @@ string itc_rmstrchar(string str, string less);
 long itc_sumlst(const vector <int> &lst);
 long itc_sum_even_lst(const vector <int> &lst);
 long itc_sum_even_part_lst(const vector <int> &lst);
+void itc_odd_even_separator_lst(const vector <int> &lst, vector <int> &lst1, vector <int> &lst2);
 int itc_max(const vector <int> &mass);
 int itc_min(const vector <int> &mass)
 #endif
