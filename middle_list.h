@@ -9,4 +9,5 @@ string itc_join(vector <char> lst, string sep);
 string itc_rmstrspc(string str);
 string itc_rmstrchar(string str, string less);                                                                       
 long itc_sumlst(const vector <int> &lst);
+int itc_max(const vector <int> &mass);
 #endif
