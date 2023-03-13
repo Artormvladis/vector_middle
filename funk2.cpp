@@ -53,9 +53,21 @@ void itc_odd_even_analysis_lst(const vector <int> &lst){
     setlocale(LC_ALL, "Russian");
     vector <int> lst1, lst2;
     itc_odd_even_separator_lst(lst, lst1, lst2);
-    cout << "Анализ списка:" << endl;
-    cout << "Количество четных чисел: " << lst1.size() << "," << '\t' << '\t' << "Количество нечетных чисел: " << lst2.size() << "\n";
-    cout << "Максимальная четная цифра: " << itc_max(lst1) << "," << '\t' << '\t' << "Максимальная нечетная цифра: " << itc_max(lst2) << "," << "\n";
-    cout << "Минимальная четная цифра: " << itc_min(lst1) << "," << '\t' << '\t' << "Минимальная нечетная цифра: " << itc_min(lst2) << "," << "\n";
-    cout << "Сумма четных чисел: " << itc_sumlst(lst1) << "," << '\t' <<'\t' << "Сумма нечетных чисел: " << itc_sumlst(lst2) << "," << "\n";
+    cout<<"Анализ списка:"<<endl;
+    cout<<"Количество четных чисел: ";
+    cout<<lst1.size()<<","<<'\t'<<'\t';
+    cout<<"Количество нечетных чисел: ";
+    cout<<lst2.size()<<endl;
+    cout<<"Максимальная четная цифра: ";
+    cout<<itc_max(lst1)<<","<<'\t'<<'\t';
+    cout<<"Максимальная нечетная цифра: "
+    cout<<itc_max(lst2)<<","<<endl;
+    cout<<"Минимальная четная цифра: "
+    cout<<itc_min(lst1)<<","<<'\t'<<'\t' 
+    cout<<"Минимальная нечетная цифра: "
+    cout<<itc_min(lst2)<<","<<endl;
+    cout<<"Сумма четных чисел: "
+    cout<<itc_sumlst(lst1)<<","<<'\t'<<'\t' 
+    cout<<"Сумма нечетных чисел: "
+    cout<<itc_sumlst(lst2)<<","<<endl;
 }
