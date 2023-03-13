@@ -8,7 +8,7 @@ int itc_max(const vector <int> &mass){
     }
     return maxi;
 }
-int itc_min_lst(const vector <int> &mass){
+int itc_min(const vector <int> &mass){
     int mini=2000000000;
     for(int i=0; i<mass.size(); i++){
         if (mass[i]<mini){
