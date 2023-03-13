@@ -2,6 +2,7 @@
 #define MIDDLE_LIST_H_INCLUDED
 #include <iostream>
 #include <string>
+#include <ostream>
 #include <vector>
 using namespace std;
 vector <char> itc_strtlist(string str);
