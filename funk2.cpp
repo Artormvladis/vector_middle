@@ -11,8 +11,11 @@ long itc_sum_even_part_lst(const vector <int> &lst){
     int a;
     a=0;
     for(int i=0; i<lst.size(); i++){
-
+        if (lst[i]%2==0){
+            a+=lst[i];
+        }
     }
+    return a;
 }
 void itc_odd_even_separator_lst(const vector <int> &lst, vector <int> &lst1, vector <int> &lst2){
     for(int i=0; i<=lst.size(); i++){
