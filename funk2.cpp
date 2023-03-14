@@ -63,14 +63,14 @@ void itc_odd_even_analysis_lst(const vector <int> &lst){
     cout<<lst2.size()<<endl;
     cout<<"Максимальная четная цифра: ";
     cout<<itc_max(lst1)<<","<<'\t'<<'\t';
-    cout<<"Максимальная нечетная цифра: "
+    cout<<"Максимальная нечетная цифра: ";
     cout<<itc_max(lst2)<<","<<endl;
-    cout<<"Минимальная четная цифра: "
-    cout<<itc_min(lst1)<<","<<'\t'<<'\t' 
-    cout<<"Минимальная нечетная цифра: "
+    cout<<"Минимальная четная цифра: ";
+    cout<<itc_min(lst1)<<","<<'\t'<<'\t';
+    cout<<"Минимальная нечетная цифра: ";
     cout<<itc_min(lst2)<<","<<endl;
-    cout<<"Сумма четных чисел: "
-    cout<<itc_sumlst(lst1)<<","<<'\t'<<'\t' 
-    cout<<"Сумма нечетных чисел: "
+    cout<<"Сумма четных чисел: ";
+    cout<<itc_sumlst(lst1)<<","<<'\t'<<'\t';
+    cout<<"Сумма нечетных чисел: ";
     cout<<itc_sumlst(lst2)<<","<<endl;
 }
