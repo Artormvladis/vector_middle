@@ -13,7 +13,7 @@ string itc_join(vector <char> lst, string sep){
             str+=lst[i];
             str+=sep;
         }
-        str+=lst[lst.size()];
+        str+=lst[lst.size()-1];
     }
     return str;
 }
